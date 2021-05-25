@@ -1,7 +1,7 @@
-package com.taurinustrading.graphql.controller;
+package com.taurinustrading.dogapi.controller;
 
-import com.taurinustrading.graphql.entity.Dog;
-import com.taurinustrading.graphql.service.DogService;
+import com.taurinustrading.dogapi.entity.Dog;
+import com.taurinustrading.dogapi.service.DogService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

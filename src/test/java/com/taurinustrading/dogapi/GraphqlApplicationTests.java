@@ -1,4 +1,4 @@
-package com.taurinustrading.graphql;
+package com.taurinustrading.dogapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

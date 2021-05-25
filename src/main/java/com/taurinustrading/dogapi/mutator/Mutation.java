@@ -1,10 +1,10 @@
-package com.taurinustrading.graphql.mutator;
+package com.taurinustrading.dogapi.mutator;
 
 import com.coxautodev.graphql.tools.GraphQLMutationResolver;
-import com.taurinustrading.graphql.entity.Dog;
-import com.taurinustrading.graphql.repository.DogRepository;
-import com.taurinustrading.graphql.exception.graphqlexception.BreedNotFoundException;
-import com.taurinustrading.graphql.exception.graphqlexception.DogNotFoundException;
+import com.taurinustrading.dogapi.entity.Dog;
+import com.taurinustrading.dogapi.repository.DogRepository;
+import com.taurinustrading.dogapi.exception.graphqlexception.BreedNotFoundException;
+import com.taurinustrading.dogapi.exception.graphqlexception.DogNotFoundException;
 import org.springframework.stereotype.Component;
 
 import java.util.Optional;

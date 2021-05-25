@@ -1,6 +1,6 @@
-package com.taurinustrading.graphql.service;
+package com.taurinustrading.dogapi.service;
 
-import com.taurinustrading.graphql.entity.Dog;
+import com.taurinustrading.dogapi.entity.Dog;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.taurinustrading.graphql.exception.graphqlexception;
+package com.taurinustrading.dogapi.exception.graphqlexception;
 
 import graphql.ErrorType;
 import graphql.GraphQLError;
