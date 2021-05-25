@@ -1,6 +1,6 @@
-package com.taurinustrading.graphql.repository;
+package com.taurinustrading.dogapi.repository;
 
-import com.taurinustrading.graphql.entity.Dog;
+import com.taurinustrading.dogapi.entity.Dog;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 

@@ -1,8 +1,8 @@
-package com.taurinustrading.graphql.service;
+package com.taurinustrading.dogapi.service;
 
-import com.taurinustrading.graphql.entity.Dog;
-import com.taurinustrading.graphql.exception.restexception.BreedNotFoundException;
-import com.taurinustrading.graphql.repository.DogRepository;
+import com.taurinustrading.dogapi.entity.Dog;
+import com.taurinustrading.dogapi.exception.restexception.BreedNotFoundException;
+import com.taurinustrading.dogapi.repository.DogRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

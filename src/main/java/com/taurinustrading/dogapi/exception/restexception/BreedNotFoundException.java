@@ -1,4 +1,4 @@
-package com.taurinustrading.graphql.exception.restexception;
+package com.taurinustrading.dogapi.exception.restexception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

@@ -1,9 +1,9 @@
-package com.taurinustrading.graphql.resolver;
+package com.taurinustrading.dogapi.resolver;
 
 import com.coxautodev.graphql.tools.GraphQLQueryResolver;
-import com.taurinustrading.graphql.entity.Dog;
-import com.taurinustrading.graphql.repository.DogRepository;
-import com.taurinustrading.graphql.exception.graphqlexception.DogNotFoundException;
+import com.taurinustrading.dogapi.entity.Dog;
+import com.taurinustrading.dogapi.repository.DogRepository;
+import com.taurinustrading.dogapi.exception.graphqlexception.DogNotFoundException;
 import org.springframework.stereotype.Component;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.taurinustrading.graphql.entity;
+package com.taurinustrading.dogapi.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
