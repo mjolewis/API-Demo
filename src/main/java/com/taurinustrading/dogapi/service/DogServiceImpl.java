@@ -3,6 +3,8 @@ package com.taurinustrading.dogapi.service;
 import com.taurinustrading.dogapi.entity.Dog;
 import com.taurinustrading.dogapi.exception.restexception.BreedNotFoundException;
 import com.taurinustrading.dogapi.repository.DogRepository;
+import org.hibernate.cfg.Environment;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

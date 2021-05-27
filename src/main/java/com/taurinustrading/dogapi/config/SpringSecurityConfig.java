@@ -48,5 +48,10 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .httpBasic();
 
+        // https://stackoverflow.com/questions/53395200/h2-console-is-not-showing-in-browser
+        http
+                .headers()
+                .frameOptions()
+                .sameOrigin();
     }
 }
